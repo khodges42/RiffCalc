@@ -1,12 +1,12 @@
 <div align="center">
 
-<img src="docs/branding/masthead.svg" width="1000" alt="RiffCalc 2000 Pro ? Workgroup Edition ? Voidmutt Enterprises">
+<img src="docs/branding/masthead.svg" width="1000" alt="RiffCalc 2000 Pro — Workgroup Edition — Voidmutt Enterprises">
 
 **The complete desktop solution for MIDI pattern generation and management.**
 
-[Quick Start](#your-first-pattern) ? [Features](#standard-equipment) ? [Build](#installation--system-requirements) ? [User Guide](docs/user-guide.md) ? [License](LICENSE)
+[Quick Start](#your-first-pattern) · [Features](#standard-equipment) · [Build](#installation--system-requirements) · [User Guide](docs/user-guide.md) · [License](LICENSE)
 
-**Version 0.3.0** &nbsp; | &nbsp; Windows x64 ? Standalone + VST3 &nbsp; | &nbsp; GPLv3
+**Version 0.3.0** &nbsp; | &nbsp; Windows x64 · Standalone + VST3 &nbsp; | &nbsp; GPLv3
 
 </div>
 
@@ -24,7 +24,7 @@ bar columns, chord analysis, an event ledger, reproducible seeds and exact note
 records. The gray controls and blue title bars are deliberate. So is the music.
 
 No subscriptions. No accounts. No inference service. Generation works entirely
-offline. ?Workgroup Edition? is product branding, not a network requirement.
+offline. “Workgroup Edition” is product branding, not a network requirement.
 
 ## Standard equipment
 
@@ -43,9 +43,9 @@ harmony, voicing and rhythmic material; they are more than sound selections.
 
 **Included scales:** major, natural minor, harmonic minor, ascending melodic minor,
 Dorian, Phrygian, Mixolydian, Lydian, Locrian and minor pentatonic. Progressions span
-1?16 bars in 4/4. Extended chords become available as complexity increases.
+1–16 bars in 4/4. Extended chords become available as complexity increases.
 
-![Generation specifications and bar columns ? cropped from the real workspace](docs/screenshots/generation-detail.png)
+![Generation specifications and bar columns — cropped from the real workspace](docs/screenshots/generation-detail.png)
 
 ### A ledger for the details
 
@@ -61,11 +61,11 @@ The piano roll remains an overview rather than a full note-drawing editor.
 1. **Enter the specifications.** Choose root, scale, genre, pattern and bar count.
    Start with C minor, Liquid Drum & Bass and four bars. Genre selection suggests
    a preview sound and tempo; your chosen scale remains yours.
-2. **Generate.** Press **G** or choose **Generate ? New Candidate**. Complexity
+2. **Generate.** Press **G** or choose **Generate → New Candidate**. Complexity
    shapes chord vocabulary and density. It is not a general randomness dial.
 3. **Audition.** Press **Space**. Select chords, bassline, arpeggio or melody to
    hear the related part. Escape or Stop releases preview notes. The standalone's
-   **Options ? Audio/MIDI Settings** selects the output device.
+   **Options → Audio/MIDI Settings** selects the output device.
 4. **Explore.** **M** mutates the current idea. **Alt+Left/Right** visits candidate
    history. Open **Riff Machine Properties** to lock harmony, voicing or rhythm
    before generating again. **F5 / Use Seed** regenerates the displayed seed.
@@ -78,8 +78,8 @@ follows valid BPM, not the host's song position or play button.
 
 ### MIDI delivery
 
-**File ? Export MIDI** writes the selected part. **Arrangement** exports a
-conductor plus four named tracks: chords, bass, arp and melody, on channels 1?4.
+**File → Export MIDI** writes the selected part. **Arrangement** exports a
+conductor plus four named tracks: chords, bass, arp and melody, on channels 1–4.
 Files include tempo, 4/4 metadata, correct note termination and an exact clip end.
 RiffCalc protects existing output files; choose a new filename to retain versions.
 
@@ -88,7 +88,7 @@ Recent files remain for seven days to accommodate delayed imports. If a host doe
 not accept the drop, use conventional export. MIDI is transferred as files;
 RiffCalc does **not** advertise live generated MIDI output from its VST3.
 
-**File ? Export Pack** produces a new numbered collection:
+**File → Export Pack** produces a new numbered collection:
 
 ```text
 RiffCalc_liquid-dnb_YYYYMMDD-HHMMSS/
@@ -184,8 +184,8 @@ also depends on the previous candidate; idea files store the actual resulting no
 The preview has 64 fixed voices and prepared event arrays. No generation, file
 access, JSON or document locks enter the audio callback. A bounded triple buffer
 transfers prepared clips. The existing algorithm and golden MIDI exports are
-preserved through the rebrand. [Architecture](docs/application-architecture.md) ?
-[Compatibility](docs/compatibility.md) ? [Validation record](docs/validation.md).
+preserved through the rebrand. [Architecture](docs/application-architecture.md) ·
+[Compatibility](docs/compatibility.md) · [Validation record](docs/validation.md).
 
 **Scope:** audition timbres are compact synthesized approximations, internally
 mono and duplicated to stereo. Arrangement preview uses one selected sound.
@@ -232,4 +232,4 @@ license notices, and run the documented checks. See [CONTRIBUTING.md](CONTRIBUTI
 
 ---
 
-<sub>Voidmutt Enterprises ? Department of Pattern Accounting ? Your Productivity Is Our Priority.</sub>
+<sub>Voidmutt Enterprises · Department of Pattern Accounting · Your Productivity Is Our Priority.</sub>

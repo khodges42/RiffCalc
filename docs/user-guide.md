@@ -20,7 +20,7 @@ changing key/scale/length; voicing locks also protect chord register.
 
 ## Event Sheet
 
-Rows list actual exported notes. Velocity is editable on double-click, range 1?127.
+Rows list actual exported notes. Velocity is editable on double-click, range 1–127.
 Enter commits and Escape cancels. Invalid values revert. Selection reports note
 information in the status bar. A valid edit adds candidate history. Previous/Next
 restores earlier documents, including note velocities. Other columns are read-only.

@@ -1,4 +1,4 @@
-# RiffCalc 0.3.0 validation ? 2026-11-07
+# RiffCalc 0.3.0 validation — 2026-11-07
 
 Windows x64 development build. This record distinguishes executed checks from
 host-specific work still requiring review. Nothing was installed system-wide.
