@@ -1,0 +1,2 @@
+#pragma once
+namespace riffcalc { inline constexpr const char* version="@PROJECT_VERSION@"; inline constexpr const char* revision="@RIFFCALC_REV@"; }

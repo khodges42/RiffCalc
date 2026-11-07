@@ -1,0 +1,68 @@
+[
+  {
+    "id": "liquid-cm-42",
+    "args": [
+      "--key",
+      "C",
+      "--scale",
+      "minor",
+      "--genre",
+      "liquid-dnb",
+      "--seed",
+      "42",
+      "--complexity",
+      "70"
+    ],
+    "midi_sha256": "2eeecc992c57e38b3b2aacc5f5aa0f4658846eb3f316e732b4070c61360ccf51",
+    "metadata_sha256": "a9d2fe221fc63590ea72efb7ccd1d58bf14daf9d6c5bc9e9eb6a7b0b0530ea65"
+  },
+  {
+    "id": "house-csharp-maxseed",
+    "args": [
+      "--key",
+      "C#",
+      "--scale",
+      "major",
+      "--genre",
+      "house",
+      "--seed",
+      "18446744073709551615"
+    ],
+    "midi_sha256": "48c7625900baf7118b2a5e16fe9a39929f18bba1b32e8daeaa3f8613e421b38d",
+    "metadata_sha256": "8ec4db81049ab0d62a34ecf3c6cc3f345067b6712a2003c8fbca4d3b7da0c9ff"
+  },
+  {
+    "id": "jungle-f-pentatonic",
+    "args": [
+      "--key",
+      "F",
+      "--scale",
+      "minor-pentatonic",
+      "--genre",
+      "jungle",
+      "--seed",
+      "777",
+      "--bars",
+      "8"
+    ],
+    "midi_sha256": "b8436ef00da44992bdc9bfcc061359d65a0dda0e37f8c0ed18af680527f5783c",
+    "metadata_sha256": "07853d2ce0175cdb59a55fe6f3702c4108065164f8a68541009e1be30f1698f9"
+  },
+  {
+    "id": "industrial-b-locrian",
+    "args": [
+      "--key",
+      "B",
+      "--scale",
+      "locrian",
+      "--genre",
+      "industrial",
+      "--seed",
+      "1",
+      "--cadence",
+      "resolve"
+    ],
+    "midi_sha256": "9e4a1f7ce7dde53ff77722aafc99770c77897bf61c573ee3a3b0323e13193e44",
+    "metadata_sha256": "53bac04c392513d4618e8e42eba4832550e3dc351e66f88add42ad1b268fee8e"
+  }
+]

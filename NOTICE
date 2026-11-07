@@ -1,0 +1,17 @@
+RiffCalc 2000 Pro (Workgroup Edition)
+A product of Voidmutt Enterprises (fictional publisher identity).
+
+Original application code and procedural recipes: VOIDMUTT, 2026.
+Originally developed as PACKRAT. Original source: GPL-3.0-or-later.
+The rebrand does not transfer authorship or change upstream license grants.
+
+JUCE 7.0.12 and its included VST3 SDK are used under their GPLv3 alternatives.
+The combined native application/VST3 selects GPLv3. Original source and module,
+SDK, font and bundled notices remain under third_party/JUCE.
+nlohmann/json 3.12.0, Copyright 2013-2025 Niels Lohmann: MIT, retained in
+third_party/nlohmann. See third_party/README.md and source hash inventories.
+
+Original geometric product icon and native UI graphics: GPL-3.0-or-later.
+Windows system typefaces are used without redistribution. No commercial MIDI
+packs, recordings, proprietary samples, Microsoft icons or copied artwork.
+VST is a trademark of Steinberg Media Technologies GmbH.

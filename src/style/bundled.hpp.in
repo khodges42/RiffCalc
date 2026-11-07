@@ -1,0 +1,5 @@
+// SPDX-License-Identifier: GPL-3.0-or-later
+#pragma once
+inline constexpr const char* bundled_genres_json[] = {
+@RiffCalc_GENRES_CHUNKS@
+};

@@ -1,0 +1,8 @@
+/out/
+/build/
+/.dev-notes/
+__pycache__/
+*.user
+*.suo
+.vs/
+.DS_Store

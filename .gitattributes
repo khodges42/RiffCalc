@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Preserve upstream bytes for the pinned source inventory on every platform.
+third_party/** -text
+tests/fixtures/** -text
+*.png binary
+*.ico binary
+*.svg text eol=lf
